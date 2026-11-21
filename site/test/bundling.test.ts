@@ -5,7 +5,7 @@ import pkg from "../package.json";
 
 // Regression guard for the shared-pill cascade. The site keeps its own 999px bold
 // purple .pill skin, but importing a page component transitively loads
-// @lvucodes/ui's 6px .pill primitive as a side effect. Equal-specificity,
+// @lelcodes/ui's 6px .pill primitive as a side effect. Equal-specificity,
 // unlayered rules resolve by source order, so the site stylesheets MUST be
 // imported after the page component in each entry for the site skin to win —
 // swap the order and the back link silently reverts to the package's pill.
@@ -16,7 +16,7 @@ const ENTRIES: [string, string, string, string][] = [
 
 for (const [name, source, pageImport, lastCss] of ENTRIES) {
   test(`${name} entry imports site styles after the page component`, () => {
-    const themeIdx = source.indexOf('"@lvucodes/ui/theme.css"');
+    const themeIdx = source.indexOf('"@lelcodes/ui/theme.css"');
     const pageIdx = source.indexOf(pageImport);
     const baseIdx = source.indexOf('"./styles/base.css"');
     expect(themeIdx).toBeGreaterThanOrEqual(0);

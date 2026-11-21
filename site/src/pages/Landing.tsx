@@ -1,7 +1,7 @@
 // eBay Σummer. Copyright (C) 2026 lelCodes. Licensed under GPL-3.0-or-later; see LICENSE.md.
 
 import type { ReactNode } from "react";
-import { BackLink } from "@lvucodes/ui";
+import { BackLink } from "@lelcodes/ui";
 import BrandStripe from "../components/BrandStripe.tsx";
 import DemoWidgets from "../components/DemoWidgets.tsx";
 import { latestRelease } from "../lib/releases.ts";

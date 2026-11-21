@@ -2,12 +2,12 @@
 
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import "@lvucodes/ui/theme.css";
+import "@lelcodes/ui/theme.css";
 import Landing from "./pages/Landing.tsx";
 import { validateReleases } from "./lib/releases.ts";
 import releasesData from "./data/releases.json";
 // Site stylesheets come LAST, after the page component import that transitively
-// pulls in @lvucodes/ui's .pill primitive: equal-specificity, unlayered rules
+// pulls in @lelcodes/ui's .pill primitive: equal-specificity, unlayered rules
 // resolve by source order, so importing base.css after the package lets the
 // site's own 999px purple .pill skin win. The extension's widget rules sit in
 // @layer extension, so index.css overrides them regardless of order.

@@ -64,7 +64,7 @@ a:hover {
 }
 
 /* ── Back link ──
-   Placement (absolute 20/20) comes from @lvucodes/ui's back-link.css. The site
+   Placement (absolute 20/20) comes from @lelcodes/ui's back-link.css. The site
    keeps its own .pill skin below, which wins over the package's 6px primitive
    because the site stylesheets are imported last (see main-landing.tsx). */
 .pill {

@@ -1,5 +1,5 @@
 import { expect, test } from "@playwright/test";
-import { defineSeSmoke } from "@lvucodes/ui/se-smoke";
+import { defineSeSmoke } from "@lelcodes/ui/se-smoke";
 
 // The shared iPhone SE base suite: no horizontal overflow, back link anchored at
 // 20/20, and the primary controls (a.pill + demo buttons) unclipped.
@@ -18,7 +18,7 @@ test.describe("eBay Σummer landing", () => {
 
   test("the back link keeps the site's own 999px pill skin", async ({ page }) => {
     await page.goto("/");
-    // Proves the site's unlayered .pill wins over @lvucodes/ui's 6px primitive.
+    // Proves the site's unlayered .pill wins over @lelcodes/ui's 6px primitive.
     const radius = await page
       .locator(".back-nav .pill")
       .evaluate((el) => getComputedStyle(el).borderRadius);

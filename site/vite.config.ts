@@ -47,8 +47,8 @@ export default defineConfig({
     // Unit tests only — e2e/ belongs to Playwright.
     include: ["test/**/*.test.ts", "src/**/*.test.ts"],
     // Inline the package so Vite transforms its bundled CSS imports; left
-    // externalized, Node's ESM loader chokes on `@lvucodes/ui`'s `.css` side effects.
-    server: { deps: { inline: ["@lvucodes/ui"] } },
+    // externalized, Node's ESM loader chokes on `@lelcodes/ui`'s `.css` side effects.
+    server: { deps: { inline: ["@lelcodes/ui"] } },
     coverage: {
       provider: "v8",
       // The site's own logic, matching what node:test measured before the

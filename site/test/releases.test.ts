@@ -89,7 +89,7 @@ test("empty / missing data degrades safely", () => {
 
 test("releaseUrl points at the raw zip in the repo", () => {
   expect(releaseUrl("releases/v1.2.0.zip")).toBe(
-    "https://github.com/lvuCodes/ebay-summer/raw/main/releases/v1.2.0.zip",
+    "https://github.com/lelCodes/ebay-summer/raw/main/releases/v1.2.0.zip",
   );
   expect(releaseUrl(null)).toBe(null);
 });

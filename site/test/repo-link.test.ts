@@ -17,7 +17,7 @@ for (const [name, Page] of [
     const link = [...container.querySelectorAll("footer a")].find(
       (a) => a.textContent === REPO_LINK_LABEL,
     );
-    expect(link?.getAttribute("href")).toBe("https://github.com/lvuCodes/ebay-summer");
+    expect(link?.getAttribute("href")).toBe("https://github.com/lelCodes/ebay-summer");
     expect(link?.getAttribute("target")).toBe("_blank");
     expect(link?.getAttribute("rel")).toBe("noreferrer noopener");
   });

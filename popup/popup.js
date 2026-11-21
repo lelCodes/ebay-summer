@@ -1,4 +1,4 @@
-// eBay Σummer. Copyright (C) 2026 lvuCodes. Licensed under GPL-3.0-or-later; see LICENSE.md.
+// eBay Σummer. Copyright (C) 2026 lelCodes. Licensed under GPL-3.0-or-later; see LICENSE.md.
 //
 // Popup shell. The registry + helper modules and each feature's schema.js and
 // popup.js load first in popup.html and attach their API to globalThis.ES, which

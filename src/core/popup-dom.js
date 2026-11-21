@@ -1,4 +1,4 @@
-// eBay Σummer. Copyright (C) 2026 lvuCodes. Licensed under GPL-3.0-or-later; see LICENSE.md.
+// eBay Σummer. Copyright (C) 2026 lelCodes. Licensed under GPL-3.0-or-later; see LICENSE.md.
 //
 // DOM builders for the popup's feature components. The popup has no bundler, so
 // a component's markup is built here rather than written into popup.html — that

@@ -1,4 +1,4 @@
-// eBay Σummer. Copyright (C) 2026 lvuCodes. Licensed under GPL-3.0-or-later; see LICENSE.md.
+// eBay Σummer. Copyright (C) 2026 lelCodes. Licensed under GPL-3.0-or-later; see LICENSE.md.
 //
 // Estimation-box CSS: the box half of the calculator's static stylesheet — the
 // purple/amber .ebay-estimation widget, its per-unit panel, and the

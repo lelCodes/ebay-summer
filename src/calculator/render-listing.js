@@ -1,4 +1,4 @@
-// eBay Σummer. Copyright (C) 2026 lvuCodes. Licensed under GPL-3.0-or-later; see LICENSE.md.
+// eBay Σummer. Copyright (C) 2026 lelCodes. Licensed under GPL-3.0-or-later; see LICENSE.md.
 //
 // The listing-page (/itm/) renderer and its overlay modals: the main est-total
 // box (with live price refresh), the dual-format Buy It Now box, the orange bid

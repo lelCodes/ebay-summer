@@ -1,4 +1,4 @@
-// eBay Σummer. Copyright (C) 2026 lvuCodes. Licensed under GPL-3.0-or-later; see LICENSE.md.
-import lvucodes from "@lvucodes/ui/eslint";
+// eBay Σummer. Copyright (C) 2026 lelCodes. Licensed under GPL-3.0-or-later; see LICENSE.md.
+import lelcodes from "@lvucodes/ui/eslint";
 
-export default lvucodes;
+export default lelcodes;

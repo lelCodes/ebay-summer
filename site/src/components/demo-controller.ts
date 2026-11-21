@@ -1,4 +1,4 @@
-// eBay Σummer. Copyright (C) 2026 lvuCodes. Licensed under GPL-3.0-or-later; see LICENSE.md.
+// eBay Σummer. Copyright (C) 2026 lelCodes. Licensed under GPL-3.0-or-later; see LICENSE.md.
 //
 // Landing-page demo: wires a purple estimation box + orange bid calc given their
 // root elements, and returns a teardown fn for React's useEffect cleanup. A thin

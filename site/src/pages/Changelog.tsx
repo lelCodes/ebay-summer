@@ -1,4 +1,4 @@
-// eBay Σummer. Copyright (C) 2026 lvuCodes. Licensed under GPL-3.0-or-later; see LICENSE.md.
+// eBay Σummer. Copyright (C) 2026 lelCodes. Licensed under GPL-3.0-or-later; see LICENSE.md.
 
 import { BackLink } from "@lvucodes/ui";
 import BrandStripe from "../components/BrandStripe.tsx";
@@ -78,7 +78,7 @@ export default function Changelog() {
             Not affiliated with eBay Inc. · <a href="index.html">Home</a> · <RepoLink />
           </p>
           <p className="copyright">
-            © 2026 lvuCodes · Licensed under <a href={LICENSE_URL}>GPL-3.0</a>
+            © 2026 lelCodes · Licensed under <a href={LICENSE_URL}>GPL-3.0</a>
           </p>
         </div>
       </footer>

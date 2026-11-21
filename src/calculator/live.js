@@ -1,4 +1,4 @@
-// eBay Σummer. Copyright (C) 2026 lvuCodes. Licensed under GPL-3.0-or-later; see LICENSE.md.
+// eBay Σummer. Copyright (C) 2026 lelCodes. Licensed under GPL-3.0-or-later; see LICENSE.md.
 //
 // Cross-widget live-refresh glue shared by the estimation box (box.js) and the
 // bid calculator (bid-calc.js): the in-place re-render registry (refreshLive)

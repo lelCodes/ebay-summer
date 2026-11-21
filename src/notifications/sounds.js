@@ -1,4 +1,4 @@
-// eBay Σummer. Copyright (C) 2026 lvuCodes. Licensed under GPL-3.0-or-later; see LICENSE.md.
+// eBay Σummer. Copyright (C) 2026 lelCodes. Licensed under GPL-3.0-or-later; see LICENSE.md.
 //
 // Auction-ending alert presets, synthesized via Web Audio (nothing bundled).
 // Each note is [freqHz, startOffsetSec, durSec, waveTypeOverride?]. Shared by

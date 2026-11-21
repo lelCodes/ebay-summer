@@ -1,4 +1,4 @@
-// eBay Σummer. Copyright (C) 2026 lvuCodes. Licensed under GPL-3.0-or-later; see LICENSE.md.
+// eBay Σummer. Copyright (C) 2026 lelCodes. Licensed under GPL-3.0-or-later; see LICENSE.md.
 //
 // Bridges the extension's widget CSS into the site, the visual counterpart to
 // extension-calc.ts. css-box.js / css-widgets.js are classic scripts that seed

@@ -8,7 +8,7 @@ const readme = fs.readFileSync(path.join(root, "README.md"), "utf8");
 const { version } = JSON.parse(fs.readFileSync(path.join(root, "manifest.json"), "utf8"));
 
 test("the install step downloads the release asset for the manifest version", () => {
-  const url = `https://github.com/lvuCodes/ebay-summer/releases/download/v${version}/v${version}.zip`;
+  const url = `https://github.com/lelCodes/ebay-summer/releases/download/v${version}/v${version}.zip`;
   assert.ok(readme.includes(`(${url})`), `README should link ${url}`);
 });
 

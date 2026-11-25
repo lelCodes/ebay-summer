@@ -73,7 +73,7 @@ chrome.runtime.onMessage.addListener((msg, sender) => {
 function warnIfGone(what, id) {
   return () => {
     const err = chrome.runtime.lastError;
-    if (err) console.warn(`eBay Summer: could not focus ${what} ${id} — ${err.message}`);
+    if (err) console.warn(`[lcodes:ebay-summer] could not focus ${what} ${id} — ${err.message}`);
   };
 }
 

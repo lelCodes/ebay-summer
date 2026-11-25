@@ -243,7 +243,7 @@ test("a click on a closed tab surfaces the failure instead of swallowing it", ()
   w.click("ebay|7|3|ended");
 
   assert.equal(w.calls.warned.length, 2); // one per update call
-  assert.match(w.calls.warned[0], /could not focus window 3 — No window with id: 3\./);
+  assert.match(w.calls.warned[0], /^\[lcodes:ebay-summer\] could not focus window 3 — No window with id: 3\./);
   assert.match(w.calls.warned[1], /could not focus tab 7 — No tab with id: 7\./);
   // The badge still goes away — a dead tab should not leave it stuck.
   assert.deepEqual(w.calls.cleared, ["ebay|7|3|ended"]);
